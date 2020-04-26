@@ -1,0 +1,40 @@
+//colors
+$primaryColor: #000000;
+$secondaryColor: #FFFFFF;
+
+//mixins
+@mixin margin-zero($up-down, $left-right) {
+    margin: 0 auto;
+    padding: $up-down $left-right;
+}
+
+.jumbotron {
+    @include margin-zero(60px, 10px);
+    background-image: linear-gradient(0.25turn, rgba(0, 0, 0, 1), rgba(255, 255, 255 , 0)), url(https://images.unsplash.com/photo-1487491424367-7571f9afbb30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $primaryColor;
+    color: $secondaryColor;
+    text-shadow: 5px 3px 5px $primaryColor;
+    border-bottom: 10px solid $secondaryColor;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1495679006242-bbb629863aac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $primaryColor;
+    background-attachment: fixed;
+    color: $secondaryColor;
+    p, label {
+        text-shadow: 5px 3px 5px $primaryColor;
+    }
+}
+
+.row-content {
+    @include margin-zero(10px, 10px);
+}
+
+.btn {
+    box-shadow: 5px 3px 5px $primaryColor;
+}

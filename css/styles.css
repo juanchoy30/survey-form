@@ -1,0 +1,27 @@
+.jumbotron {
+  margin: 0 auto;
+  padding: 60px 10px;
+  background-image: linear-gradient(0.25turn, black, rgba(255, 255, 255, 0)), url(https://images.unsplash.com/photo-1487491424367-7571f9afbb30?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  color: #FFFFFF;
+  text-shadow: 5px 3px 5px #000000;
+  border-bottom: 10px solid #FFFFFF; }
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1495679006242-bbb629863aac?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  background-attachment: fixed;
+  color: #FFFFFF; }
+  body p, body label {
+    text-shadow: 5px 3px 5px #000000; }
+
+.row-content {
+  margin: 0 auto;
+  padding: 10px 10px; }
+
+.btn {
+  box-shadow: 5px 3px 5px #000000; }
